@@ -123,25 +123,26 @@ ul li a:hover {
     position: relative;
 }
 
-.position {
+.bill1 {
     position: absolute;
-    top: 216px;
-    left: 419px;
+    top: 101px;
+    left: 413px;
     z-index: 1;
 }
 
 h1 {
     font-family: "Montserrat Bold", Arial, sans-serif;
     font-size: 60px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .description {
     font-family: "Roboto Regular", Arial, sans-serif;
     font-size: 20px;
-    color: #777777;
+    color: #cccccc;
     text-align: center;
     padding-bottom: 60px;
 }
@@ -159,7 +160,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.more a {
+.more a, .more2 a {
     color: white;
 }
 
@@ -171,14 +172,11 @@ h2 {
     padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .min {
     min-height: 54px;
-}
-
-.work_container {
-    display: inline;
 }
 
 .work {
@@ -205,6 +203,99 @@ h2 {
     text-align: center;
     line-height: 1.5;
 }
+
+/*2nd billboard*/
+.bill2 {
+    position: absolute;
+    top: 81px;
+    left: 519px;
+    z-index: 1;
+}
+
+.relax {
+    font-family: "Montserrat Bold", Arial, sans-serif;
+    font-size: 40px;
+    color:#ffffff;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+
+.description2 {
+    font-family: "Roboto Regular", Arial, sans-serif;
+    font-size: 16px;
+    color: #cccccc;
+    padding-bottom: 40px;
+    width: 500px;
+}
+
+.description3 {
+    font-family: "Roboto Regular", Arial, sans-serif;
+    font-size: 16px;
+    color: #cccccc;
+    width: 300px;
+    padding: 7px 0 40px 40px;
+}
+
+.ampersand {
+    color: #7cc576;
+}
+
+.more2 {
+    font-family: "Montserrat Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: #7cc576;
+    width: 150px;
+    border-radius: 40px;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.list {
+    color: white;
+    border: 3px solid #777777;
+    border-radius: 40px;
+    padding: 5px;
+    float: left;
+}
+
+/*Projects block*/
+/*.ipad {*/
+    /*background: url("images/ipad.jpg")right 250px no-repeat;*/
+    /*background-size: 50%;*/
+/*}*/
+
+/*.projects {*/
+    /*width: 100%;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
