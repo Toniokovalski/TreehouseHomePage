@@ -69,8 +69,6 @@ display: block;
     src: url(fonts/roboto-slab/RobotoSlab-Regular.ttf);
 }
 
-
-
 /*Header*/
 
 .main {
@@ -379,7 +377,7 @@ h2 {
 
 h3 {
     font-family: "Montserrat Bold", Arial, sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     color: #ffffff;
     text-align: center;
     padding-bottom: 30px;
@@ -399,21 +397,43 @@ h3 {
     width: 180px;
 }
 
+.contact_us a {
+    color: #ffffff;
+}
 
+/*Logos*/
+.logos {
+    width: 940px;
+    margin: 0 auto;
+}
 
+.logo_images img {
+    padding: 60px 0 60px 60px;
+}
 
+/*Footer*/
+.footer {
+    width: 100%;
+    background-color: #222222;
+    padding: 60px 0;
+}
 
+.top_footer {
+    width: 940px;
+    margin: 0 auto;
+}
 
+.contacts {
+    float: left;
+}
 
+.address {
+    width: 210px;
+}
 
-
-
-
-
-
-
-
-
+.posts {
+    width: 310px;
+}
 
 
 
