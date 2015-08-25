@@ -69,6 +69,11 @@ display: block;
     src: url(fonts/roboto-slab/RobotoSlab-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(fonts/roboto-slab/RobotoSlab-Bold.ttf);
+}
+
 /*Header*/
 
 .main {
@@ -416,6 +421,7 @@ h3 {
     width: 100%;
     background-color: #222222;
     padding: 60px 0;
+    overflow: hidden;
 }
 
 .top_footer {
@@ -424,46 +430,121 @@ h3 {
 }
 
 .contacts {
+    width: 310px;
     float: left;
 }
 
-.address {
-    width: 210px;
+.text {
+    font-family: "Roboto Regular", Arial, sans-serif;
+    font-size: 16px;
+    color: #ececec;
+    line-height: 1.5;
+    padding-bottom: 10px;
 }
 
 .posts {
     width: 310px;
+    float: left;
+    padding-right: 20px;
 }
 
+h4 {
+    font-family: "Montserrat Bold", Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
 
+.tweets {
+    width: 290px;
+    float: left;
+}
 
+.hashtag {
+    font-family: "Montserrat Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #ececec;
+}
 
+.tweet_time {
+    font-family: "Montserrat Regular", Arial, sans-serif;
+    font-size: 12px;
+    color: #ececec;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
 
+.fa {
+    float: left;
+    font-size: 17px;
+}
 
+.text-margin {
+    margin-left: 30px;
+}
 
+i.map {
+    font-size: 28px;
+}
 
+i.mobile {
+    font-size: 28px;
+}
 
+i.letter {
+    font-size: 20px;
+}
 
+.bottom_footer {
+    padding: 40px 0 80px 0;
+    width: 940px;
+    margin: 0 auto;
+}
 
+.Copyright {
+    font-family: "Montserrat Regular", Arial, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    float: left;
+    padding-right: 120px;
+    line-height: 40px;
+}
 
+.social a {
+    width: 20px;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 50px;
+}
 
+.social_icon a i {
+    font-size: 20px;
+}
 
+.facebook i, .pinterest i, .google-plus i {
+    margin-left: 3px;
+}
 
+.tweet:hover {
+    background: #00aced;
+}
 
+.facebook:hover {
+    background: #3b5998;
+}
 
+.pinterest:hover {
+    background: #cb2028;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.google-plus:hover {
+    background: #da2713;
+}
 
 
 
