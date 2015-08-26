@@ -129,7 +129,7 @@ ul li a:hover {
 .bill1 {
     position: absolute;
     top: 101px;
-    left: 413px;
+    left: 30%;
     z-index: 1;
 }
 
@@ -161,6 +161,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    display: block;
 }
 
 .more a, .more2 a {
@@ -180,6 +181,27 @@ h2 {
 
 .min {
     min-height: 54px;
+}
+
+.heart {
+    background: url('images/sprite.png') no-repeat -227px -227px;
+    width: 52px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.phone {
+    background: url('images/sprite.png') no-repeat 0 -227px;
+    width: 40px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.rate {
+    background: url('images/sprite.png') no-repeat -113px -227px;
+    width: 54px;
+    height: 42px;
+    margin: 0 auto;
 }
 
 .work {
@@ -212,7 +234,7 @@ h2 {
 .bill2 {
     position: absolute;
     top: 81px;
-    left: 519px;
+    left: 40%;
     z-index: 1;
 }
 
@@ -255,6 +277,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     margin-top: 10px;
+    display: block;
 }
 
 .list {
@@ -285,6 +308,7 @@ h2 {
     color: #cccccc;
     padding-bottom: 25px;
     line-height: 1.5;
+    overflow: hidden;
 }
 
 .icon {
@@ -292,11 +316,30 @@ h2 {
     margin-right: 15px;
 }
 
+.basket {
+    background: url('images/sprite.png') no-repeat -227px -113px;
+    width: 73px;
+    height: 72px;
+}
+
+.laptop {
+    background: url('images/sprite.png') no-repeat 0 0;
+    width: 73px;
+    height: 73px;
+}
+
+.locked {
+    background: url('images/sprite.png') no-repeat -113px 0;
+    width: 73px;
+    height: 73px;
+}
+
 .name {
     font-family: "Montserrat Bold", Arial, sans-serif;
     font-size: 18px;
     color: black;
     padding-top: 15px;
+    overflow: hidden;
 }
 
 .projects_container a {
@@ -315,6 +358,10 @@ h2 {
     background-size: 41%;
 }
 
+.details {
+    padding-bottom: 100px;
+}
+
 /* 6th block */
 
 .six {
@@ -323,17 +370,34 @@ h2 {
     width: 100%;
 }
 
-.middle {
-    vertical-align: middle;
+.images {
+    text-align: center;
 }
 
-.first {
-    padding-left: 95px;
-  }
+.middle {
+    width: 91px;
+    height: 91px;
+    display: inline-block;
+}
 
-.slice {
-    vertical-align: middle;
-    padding: 0 32px;
+.music {
+    background: url('images/sprite.png') no-repeat -113px -113px;
+}
+
+.lines {
+    background: url('images/sprite.png') no-repeat 0 -113px;
+}
+
+.star {
+    background: url('images/sprite.png') no-repeat -209px 0;
+}
+
+.horizontal_line {
+    background: url('images/sprite.png') no-repeat -57px -290px;
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    margin: 0 30px;
 }
 
 /* Clients */
@@ -349,6 +413,7 @@ h2 {
     width: 640px;
     background: #f9f9f9;
     padding: 40px 30px 30px 30px;
+    margin-bottom: 30px;
 }
 
 .clients blockquote p {
@@ -400,6 +465,7 @@ h3 {
     text-transform: uppercase;
     margin: 0 auto;
     width: 180px;
+    display: block;
 }
 
 .contact_us a {
@@ -482,6 +548,8 @@ h4 {
 
 .text-margin {
     margin-left: 30px;
+    display: block;
+    color: #ececec;
 }
 
 i.map {
